@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+/* header Start*/
+header{
+ background-color:antiquewhite ;
+ color:rgb(13, 214, 250);
+ padding-top:30px;
+ min-height: 70px;
+ border-bottom:#e8491d 3px solid;
+}
+header h1{
+  margin-left:40px;
+}
+header a{
+    color:rgb(198, 36, 27);
+    text-decoration:none ;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+header ul{
+    margin: 0;
+    padding:0;
+
+}
+header li{
+    float:left;
+    display:inline;
+    padding:0 15px 10px 20px;
+    
+}
+header nav{
+   float:right;
+}
+/*header close*/
+
+/*Showcase start*/
+#showcase{
+    min-height: 400px;
+   background: url('./images/img1.jpg') no-repeat 0 -400px;
+   text-align: center;
+   color: #ffffff;
+}
+#showcase h1{
+  padding-top: 100px;
+  font-size:40px;
+}
+#showcase p{
+    padding-top:20px;
+    font-size:30px;
+    color: #e8491d;
+  }
+/*Showcase close*/
+
+/*about start*/
+#About{
+  background-color: azure;
+  text-align: center;
+  margin:0 150px 0 150px;
+  height: 200px;
+}
+#About h1{
+  color:rgb(5, 113, 133) ;
+  padding-top:20px;
+  font-size:30px;
+  padding-bottom:20px;
+}
+#About p{
+  font-size:20px;
+}
+/*about end*/
+
+/*Events start*/
+ 
+#Events h1{
+color:rgb(5, 113, 133);
+text-align: center;
+padding-top:20px;
+font-size:30px;
+padding-bottom:20px;
+}
+#Events h2{
+  padding-top:10px;
+  padding-bottom:10px;
+  color:rgb(246, 122, 237);
+}
+#Events .container{
+  background-color: whitesmoke;
+  display: flex;
+  text-align: center;
+  
+}
+#Events .img{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/*Events end*/
+
+footer  {
+    background-color:antiquewhite ;
+    height:30px;
+    padding-top: 20px;
+    padding-left:20px;
+    text-align: center;
+}
+footer i{
+  padding-left: 20px;
+}
